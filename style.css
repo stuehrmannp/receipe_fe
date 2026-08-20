@@ -16,16 +16,28 @@ p, li, span {
     font-family: 'Outfit', sans-serif;
 }
 
+p {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 42px;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
 main {
     margin: 0 auto;
-    width: 840px;
-    width: 850px;
+    width: 755px;
     background-color: #fff;
 }
 
 /* container */
 .container {
-    padding: 45px;
+    padding: 38px;
 }
 
 /* Jumbotron */
