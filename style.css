@@ -4,10 +4,34 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
 h1, h2 {
     font-family: "Young Serif", serif;
 }
 
 p, li, span {
     font-family: 'Outfit', sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 840px;
+    width: 850px;
+    background-color: #fff;
+}
+
+/* container */
+.container {
+    padding: 45px;
+}
+
+/* Jumbotron */
+
+.jumbotron img {
+    height: 340px;
+    width: 100%;
+    border-radius: 12px;
 }
