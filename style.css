@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+}
+
+p, li, span {
+    font-family: 'Outfit', sans-serif;
+}
