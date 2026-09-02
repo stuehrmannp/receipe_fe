@@ -13,6 +13,8 @@ h1, h2 {
     font-family: "Young Serif", serif;
 }
 
+h2 {}
+
 p, li, span {
     font-family: 'Outfit', sans-serif;
 }
@@ -30,6 +32,7 @@ h1 {
     margin-bottom: 15px;
     font-weight: 600;
 }
+
 
 main {
     margin: 0 auto;
@@ -59,7 +62,7 @@ main {
      margin-bottom: 30px;
 }
 
-.prepContainer h2 {
+.prepContainer > h2 {
     color: hsl(332, 51%, 32%);
     font-family: 'Outfit', sans-serif;
     margin-bottom: 15px;
@@ -81,3 +84,22 @@ main {
 }
 
 /* Ingredient Section */
+
+.ingredientsContainer {
+    list-style: inside;
+}
+
+.ingredientsContainer h2 {
+    font-size: 32px;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+
+.ingredientsContainer ul > li:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.ingredientsContainer {
+    border-bottom: 2px solid hsl(30, 54%, 90%);
+     padding-bottom: 32px;
+}
