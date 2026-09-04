@@ -33,6 +33,7 @@ h1 {
 
 
 main {
+    border-radius: 20px;
     margin: 0 auto;
     width: 755px;
     background-color: #fff;
