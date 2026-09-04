@@ -83,7 +83,9 @@ main {
 
 /* Ingredient Section */
 
-.ingredientsContainer > h2, .instructionsContainer > h2, .nutritionContainer > h2 {
+.ingredientsContainer > h2,
+.instructionsContainer > h2,
+.nutritionContainer > h2 {
     font-size: 32px;
     color: hsl(14, 45%, 36%);
     margin-bottom: 15px;
@@ -125,4 +127,30 @@ main {
 .instructionsContainer li > span {
     font-weight: bold;
     color: hsl(30, 10%, 34%);
+}
+
+
+/* Nutrition Section */
+
+.nutritionContainer table {
+     font-family: 'Outfit', sans-serif;
+     width: 100%;
+      border-collapse: collapse;
+}
+
+.nutritionContainer table th {
+    text-align: left;
+    color:  hsl(30, 10%, 34%);
+    padding: 12px 40px;
+    font-weight: 400;
+}
+
+.nutritionContainer table td {
+    padding-right: 90px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.nutritionContainer table tbody tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
